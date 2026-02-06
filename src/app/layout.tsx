@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | Boustras Farm",
   },
   description:
-    "Οικογενειακή αγροτική επιχείρηση από το 1952. 400+ στρέμματα κοντά στη Λίμνη Υλίκη. Βιώσιμη παραγωγή, ποιότητα και λογιστική.",
+    "Οικογενειακή αγροτική επιχείρηση από το 1952. 400+ στρέμματα κοντά στη Λίμνη Υλίκη. Βιώσιμη παραγωγή, ποιότητα και Logistics.",
   keywords: ["Boustras Farm", "αγροτική παραγωγή", "Λίμνη Υλίκη", "Natura", "φρέσκα λαχανικά", "βιώσιμη γεωργία"],
   authors: [{ name: "Boustras Farm" }],
   openGraph: {
@@ -35,7 +35,7 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Boustras Farm",
-  description: "Οικογενειακή αγροτική επιχείρηση από το 1952. 400+ στρέμματα κοντά στη Λίμνη Υλίκη. Βιώσιμη παραγωγή, ποιότητα και λογιστική.",
+  description: "Οικογενειακή αγροτική επιχείρηση από το 1952. 400+ στρέμματα κοντά στη Λίμνη Υλίκη. Βιώσιμη παραγωγή, ποιότητα και Logistics.",
   url: "https://boustrasfarm.gr",
   foundingDate: "1952",
   areaServed: "Greece",

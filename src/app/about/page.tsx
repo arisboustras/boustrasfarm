@@ -159,7 +159,7 @@ export default function AboutPage() {
 
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1a3d1a] mb-12">Λογιστική</h2>
+          <h2 className="text-3xl font-bold text-[#1a3d1a] mb-12">Logistics</h2>
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
               <p className="text-[#5c6b5c] leading-relaxed mb-4">
@@ -183,7 +183,7 @@ export default function AboutPage() {
             <div className="relative aspect-video rounded-2xl overflow-hidden">
               <Image
                 src={images.logistics}
-                alt="Λογιστική Boustras Farm"
+                alt="Logistics Boustras Farm"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -128,7 +128,7 @@ export default function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                   </svg>
                 ),
-                title: "Λογιστική",
+                title: "Logistics",
                 desc: "Αξιόπιστη παράδοση και διαχείριση αλυσίδας εφοδιασμού.",
               },
               {
@@ -236,7 +236,7 @@ export default function HomePage() {
               <div className="relative aspect-video rounded-2xl overflow-hidden">
                 <Image
                   src={images.logistics}
-                  alt="Λογιστική Boustras Farm"
+                  alt="Logistics Boustras Farm"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -246,7 +246,7 @@ export default function HomePage() {
             </ScrollReveal>
             <ScrollReveal variant="slide-right" duration={700} delay={100} className="order-1 lg:order-2">
               <div>
-                <h2 className="text-2xl sm:text-3xl font-bold text-[#1a3d1a] mb-6">Λογιστική & Παράδοση</h2>
+                <h2 className="text-2xl sm:text-3xl font-bold text-[#1a3d1a] mb-6">Logistics & Παράδοση</h2>
                 <p className="text-[#5c6b5c] leading-relaxed mb-4">
                   Διαθέτουμε σύγχρονη υποδομή για τη γρήγορη και αξιόπιστη μεταφορά των προϊόντων μας. Από τη συγκομιδή
                   μέχρι την παράδοση, διασφαλίζουμε τη φρεσκάδα και την ποιότητα.
