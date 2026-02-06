@@ -51,7 +51,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src={images.aboutHistory}
-                  alt="Ιστορία Boustras Farm - Ελαιόδεντρα Μεσογείου"
+                  alt="Ιστορία Boustras Farm - Μεσογειακή γεωργία"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

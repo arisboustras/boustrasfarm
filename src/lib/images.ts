@@ -9,7 +9,7 @@ const unsplash = (id: string, w: number, q = 80) =>
 export const images = {
   hero: unsplash("1472214103451-9374bd1c798e", 1920), // Olive grove, Mediterranean
   aboutFarm: unsplash("1500382017468-9049fed747ef", 800), // Golden wheat field, Mediterranean
-  aboutHistory: unsplash("1558618666-fcd25c85cd64", 800), // Olive trees, Greece
+  aboutHistory: unsplash("1510812431401-41d2d2724f86", 800), // Vineyard, Mediterranean farmland
   sustainability: unsplash("1416879595882-3373a0480b5b", 800), // Organic green fields
   logistics: unsplash("1605000797499-95a51c5269ae", 800), // Farm logistics
   vegetables: unsplash("1540420773420-3366772f4999", 800), // Fresh Mediterranean vegetables
