@@ -90,6 +90,7 @@ export default function HomePage() {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   priority
+                  unoptimized
                 />
               </div>
             </ScrollReveal>
@@ -173,6 +174,7 @@ export default function HomePage() {
                       className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                       sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw"
                       loading="lazy"
+                      unoptimized
                     />
                   </div>
                   <div className="p-4 sm:p-5">
@@ -222,6 +224,7 @@ export default function HomePage() {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   loading="lazy"
+                  unoptimized
                 />
               </div>
             </ScrollReveal>
@@ -234,14 +237,15 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <ScrollReveal variant="slide-left" duration={700} className="order-2 lg:order-1">
               <div className="relative aspect-video rounded-2xl overflow-hidden">
-                <Image
-                  src={images.logistics}
-                  alt="Logistics Boustras Farm"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  loading="lazy"
-                />
+<Image
+                src={images.logistics}
+                alt="Logistics Boustras Farm"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                loading="lazy"
+                unoptimized
+              />
               </div>
             </ScrollReveal>
             <ScrollReveal variant="slide-right" duration={700} delay={100} className="order-1 lg:order-2">
